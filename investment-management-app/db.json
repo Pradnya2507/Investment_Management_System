@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "email": "Pradnya@gmail.com",
+      "password": "Pass@123"
+    }
+  ],
+  "investments": [
+    {
+      "id": "a8a9",
+      "name": "HDFC mutual fund",
+      "type": "Debt",
+      "amount": "56423",
+      "purchaseDate": "2026-01-07",
+      "currentValue": "56987.23"
+    },
+    {
+      "id": "d036",
+      "name": "SBI Equity",
+      "type": "Debt",
+      "amount": "8952",
+      "purchaseDate": "2026-01-13",
+      "currentValue": "9041.52"
+    }
+  ]
+}

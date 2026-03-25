@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background: url("../../assets/BackgroundImg.png") no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  width: 35rem;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width:7rem;
+  height:8rem;
+  object-fit: contain;
+}
+
+.header-text h2 {
+ 
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  font-size: 1.2rem;
+  color: #454545;
+  text-align: left;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 18px;
+} 
+
+.input-box input {
+  width: 100%;
+  padding: 10px 50px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+
+}
+
+
+.icon {
+  
+  /* border-right: 2px solid#b8b2b2; */
+  
+  position:absolute;
+  left: 12px;
+  top: 1.3rem;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+
+}
+
+.forgot {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #2575fc;
+  text-decoration: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6a11cb;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+  margin: 12px ;
+ 
+}
+
+.signup {
+  font-size: 1.2rem;
+}
+
+.signup a {
+  color: #2575fc;
+  font-weight: 600;
+ 
+}
+
+.green-checkbox .form-check-input:checked{
+    background-color: rgb(6, 158, 105);
+    border-color:rgb(6, 158, 105) ;
+
+}
+
+.green-checkbox .form-check-input:focus{
+    box-shadow: none;
+}
+/* Increase checkbox size slightly */
+.green-checkbox .form-check-input {
+  transform: scale(1.30);   /* try 1.1 / 1.25 if needed */
+  cursor: pointer;
+}
+
+
